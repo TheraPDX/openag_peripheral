@@ -1,0 +1,11 @@
+{
+  "name": "openag_peripheral",
+  "keywords": "openag, peripheral",
+  "description": "Superclass for OpenAg peripherals (sensors & actuators)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OpenAgInitiative/openag_peripheral.git"
+  },
+  "frameworks": "arduino",
+  "platforms": "*"
+}
