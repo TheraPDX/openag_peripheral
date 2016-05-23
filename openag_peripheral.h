@@ -7,14 +7,14 @@
  #include "WProgram.h"
 #endif
 
-
 class Peripheral {
   public:
     // Public variables
     String id;
+    String* parameters;
 
     // Public methods
-    Peripheral(String id); // constructor
+    Peripheral(String id, String parameters[]); // constructor
     virtual ~Peripheral(); // destructor
     virtual void begin();
     virtual String get(String key);
